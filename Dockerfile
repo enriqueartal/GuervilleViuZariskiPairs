@@ -1,4 +1,4 @@
-FROM sagemath/sagemath:8.8
+FROM sagemath/sagemath-dev:8.8
 USER root
 RUN apt-get -qq update \
  && apt-get -qq install -y --no-install-recommends autogen gcc build-essential make \
