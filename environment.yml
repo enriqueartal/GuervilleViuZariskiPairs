@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@enriqueartal 
-enriqueartal
-/
-TorsionDivisorsCubicZariskiPairs
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-TorsionDivisorsCubicZariskiPairs/environment.yml
-@enriqueartal
-enriqueartal Update environment.yml
-Latest commit fed3c31 7 days ago
- History
- 1 contributor
-20 lines (19 sloc)  808 Bytes
-
 name: sage-binder-env
 
 channels:
