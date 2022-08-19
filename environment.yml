@@ -1,9 +1,37 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@enriqueartal 
+enriqueartal
+/
+TorsionDivisorsCubicZariskiPairs
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+TorsionDivisorsCubicZariskiPairs/environment.yml
+@enriqueartal
+enriqueartal Update environment.yml
+Latest commit fed3c31 7 days ago
+ History
+ 1 contributor
+20 lines (19 sloc)  808 Bytes
+
 name: sage-binder-env
 
 channels:
   - conda-forge
   - defaults
-
 dependencies:
   - jupyterlab
   # Required by the SageMath kernel in Jupyter
@@ -11,5 +39,12 @@ dependencies:
   # Install the full distribution of SageMath. The resulting image might take a
   # long time to load on binder. Replace sage with sagelib, to use a minimal
   # distribution of SageMath, without plotting, without symbolic computations, ….
-   - sage=9.6
-   - gap
+  - sagemath-sirocco
+  - gap
+  #- sirocco
+  # If you chose sagelib instead of sage above, you can add the required
+  # features manually here, e.g., matplotlib-base for basic plotting, sympy for
+  # symbolic computations, …. See the "run" section of
+  # https://github.com/conda-forge/sage-feedstock/blob/main/recipe/meta.yaml
+  # for the things that are included in "sage" but that might be missing from
+  # "sagelib".
