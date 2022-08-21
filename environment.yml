@@ -12,6 +12,7 @@ dependencies:
   # distribution of SageMath, without plotting, without symbolic computations, ….
   - sagemath-sirocco
   - sympy
+  - matplotlib
   - gap
   #- sirocco
   # If you chose sagelib instead of sage above, you can add the required
