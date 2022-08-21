@@ -11,7 +11,7 @@ dependencies:
   # long time to load on binder. Replace sage with sagelib, to use a minimal
   # distribution of SageMath, without plotting, without symbolic computations, ….
   - sagemath-sirocco
-  - simpy
+  - sympy
   - gap
   #- sirocco
   # If you chose sagelib instead of sage above, you can add the required
